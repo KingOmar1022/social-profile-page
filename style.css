@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);   
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    font-family: Inter;
+    font-size: 14px;
+    background-color: var(--grey-900);
+}
+
+#card{
+    background-color: var(--grey-800);
+    height: 550px;
+    width: 340px;
+    border-radius: 10px;
+}   
+
+#prf{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#name{
+    color: var(--white);
+    font-weight: 550;
+}
+
+#country{
+    color: var(--green);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#bio{
+    color: var(--white);
+    opacity: 70%;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: var(--grey-700);
+    color: white;
+    font-weight: 600;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 260px;
+}
+
+button:hover{
+    background-color: var(--green);
+    color: var(--grey-900);
+    transition: background-color 0.5s linear;
+    transition: color 0.1s linear;
+}
+
